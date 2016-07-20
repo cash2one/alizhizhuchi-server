@@ -11,15 +11,18 @@ switch($act){
 	case "shouquan":
 		echo get_vip_shouquan($domain);
 		break;
-	case "vipjibie":
-		echo get_vip_jibie($domain);
-		break;
+//	case "vipjibie":
+//		echo get_vip_jibie($domain);
+//		break;
 	case "update":
 		echo get_update_list($domain);
 		break;
-	case "login":
-		echo update_domain_login($domain);
+	case "templates":
+		echo get_templates_list($domain);
 		break;
+//	case "login":
+//		echo update_domain_login($domain);
+//		break;
 	default:
 		header("Location: http://www.alizhizhuchi.top");
 		break;

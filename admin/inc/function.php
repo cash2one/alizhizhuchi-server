@@ -6,6 +6,9 @@ function get_vip_shouquan($domain){
     $sql="select d.title,d.enddate,v.title as vip,v.domain,v.templates from domain as d,vip as v where d.vip_id=v.id and d.title='".$domain."' and d.ok=1";
     $result=$mysqli->query($sql);
     if($result->num_rows>0){
+        //更新验证时间
+        $sql="update domain set login_time=".time()." where title='".$domain."'";
+        $result=$mysqli->query($sql);
         return json_encode($result->fetch_assoc());
     }else{
         return false;//未授权或已过期
@@ -26,50 +29,42 @@ function get_vip_shouquan($domain){
 //    }
 //}
 //升级列表
-function get_update_list($domain){
+function get_update_list(){
     global $mysqli;
-    if(get_vip_shouquan($domain)){
-        $sql="select * from update order by id desc";
-        $result=$mysqli->query($sql);
-        if($result->num_rows>0){
-            return json_encode($result->fetch_assoc());
-        }
-    }else{
-        return false;//未授权,免费版
+    $sql="select * from update order by id desc";
+    $result=$mysqli->query($sql);
+    if($result->num_rows>0){
+        return json_encode($result->fetch_assoc());
     }
 }
 //模板列表
-function get_templates_list($domain){
+function get_templates_list(){
     global $mysqli;
-    if(get_vip_shouquan($domain)){
-        $sql="select * from templates order by id desc";
-        $result=$mysqli->query($sql);
-        if($result->num_rows>0){
-            return json_encode($result->fetch_assoc());
-        }
-    }else{
-        return false;//未授权,免费版
+    $sql="select * from templates order by id desc";
+    $result=$mysqli->query($sql);
+    if($result->num_rows>0){
+        return json_encode($result->fetch_assoc());
     }
 }
-//更新在线时间及判断是否过期
-function update_domain_login($domain){
-    global $mysqli;
-    if(get_vip_shouquan($domain)){
-        $domain=base64_encode($domain);
-        $enddate=$mysqli->query("select enddate from domain where title='".$domain."'")->fetch_object()->enddate;
-        $sql="update domain set login_time=".time();
-        if(time()>$enddate){
-            $sql.=",ok=0";
-        }
-        $sql.=" where title='".$domain."'";
-        $result=$mysqli->query($sql);
-        if($mysqli->affected_rows>0){
-            return true;
-        }
-    }else{
-        return false;//未授权,免费版
-    }
-}
+////更新在线时间及判断是否过期
+//function update_domain_login($domain){
+//    global $mysqli;
+//    if(get_vip_shouquan($domain)){
+//        $domain=base64_encode($domain);
+//        $enddate=$mysqli->query("select enddate from domain where title='".$domain."'")->fetch_object()->enddate;
+//        $sql="update domain set login_time=".time();
+//        if(time()>$enddate){
+//            $sql.=",ok=0";
+//        }
+//        $sql.=" where title='".$domain."'";
+//        $result=$mysqli->query($sql);
+//        if($mysqli->affected_rows>0){
+//            return true;
+//        }
+//    }else{
+//        return false;//未授权,免费版
+//    }
+//}
 //后台
 //信息列表
 function info_list($from,$page){
