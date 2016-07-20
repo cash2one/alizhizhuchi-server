@@ -1,30 +1,30 @@
 <?php
-//验证域名授权
+//验证域名授权,vip级别,域名数量,模板数量,结果写入到lic.php中
 function get_vip_shouquan($domain){
     global $mysqli;
     $domain=base64_encode($domain);
-    $sql="select id from domain where title='".$domain."' and ok=1";
+    $sql="select d.title,d.enddate,v.title as vip,v.domain,v.templates from domain as d,vip as v where d.vip_id=v.id and d.title='".$domain."' and d.ok=1";
     $result=$mysqli->query($sql);
     if($result->num_rows>0){
-        return $domain;
+        return json_encode($result->fetch_assoc());
     }else{
         return false;//未授权或已过期
     }
 }
-//获取vip级别,域名数量,模板数量
-function get_vip_jibie($domain){
-    global $mysqli;
-    if(get_vip_shouquan($domain)){
-        $domain=base64_encode($domain);
-        $sql="select vip,domain,templates from vip where id=(select vip_id from domain where title='".$domain."')";
-        $result=$mysqli->query($sql);
-        if($result->num_rows>0){
-            return json_encode($result->fetch_assoc());
-        }
-    }else{
-        return false;
-    }
-}
+////获取vip级别,域名数量,模板数量
+//function get_vip_jibie($domain){
+//    global $mysqli;
+//    if(get_vip_shouquan($domain)){
+//        $domain=base64_encode($domain);
+//        $sql="select vip,domain,templates from vip where id=(select vip_id from domain where title='".$domain."')";
+//        $result=$mysqli->query($sql);
+//        if($result->num_rows>0){
+//            return json_encode($result->fetch_assoc());
+//        }
+//    }else{
+//        return false;
+//    }
+//}
 //升级列表
 function get_update_list($domain){
     global $mysqli;

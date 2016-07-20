@@ -11,7 +11,7 @@
  Target Server Version : 50712
  File Encoding         : utf-8
 
- Date: 07/14/2016 10:40:12 AM
+ Date: 07/20/2016 14:51:31 PM
 */
 
 SET NAMES utf8;
@@ -42,19 +42,40 @@ DROP TABLE IF EXISTS `domain`;
 CREATE TABLE `domain` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(255) NOT NULL,
-  `date` int(11) NOT NULL,
+  `startdate` int(11) NOT NULL,
   `vip_id` int(11) NOT NULL DEFAULT '1',
   `login_time` int(11) DEFAULT NULL,
-  `login_count` int(11) DEFAULT NULL,
+  `ok` tinyint(2) unsigned NOT NULL DEFAULT '1',
+  `enddate` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `title` (`title`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `domain`
 -- ----------------------------
 BEGIN;
-INSERT INTO `domain` VALUES ('1', 'eGlhbnpoaWh1bGlhbi5jb20=', '1468229135', '1', null, null);
+INSERT INTO `domain` VALUES ('1', 'eGlhbnpoaWh1bGlhbi5jb20=', '1468229135', '1', '1468502915', '1', '1468425600');
+COMMIT;
+
+-- ----------------------------
+--  Table structure for `gengxin`
+-- ----------------------------
+DROP TABLE IF EXISTS `gengxin`;
+CREATE TABLE `gengxin` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `title` varchar(255) NOT NULL,
+  `date` int(11) NOT NULL,
+  `detail` text,
+  `zip` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+--  Records of `gengxin`
+-- ----------------------------
+BEGIN;
+INSERT INTO `gengxin` VALUES ('1', '1.2.1', '1468480930', '添加服务器验证', '/update/update_1_2_1.zip');
 COMMIT;
 
 -- ----------------------------
@@ -69,20 +90,14 @@ CREATE TABLE `templates` (
   `zip` varchar(255) NOT NULL,
   `thumb` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
---  Table structure for `update`
+--  Records of `templates`
 -- ----------------------------
-DROP TABLE IF EXISTS `update`;
-CREATE TABLE `update` (
-  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `ver` varchar(255) NOT NULL,
-  `date` int(11) NOT NULL,
-  `detail` text,
-  `zip` varchar(255) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+BEGIN;
+INSERT INTO `templates` VALUES ('1', 'moban1', '1468471343', '模板一', '/templates/moban1.zip', '/templates/moban1_thumb.jpg'), ('2', 'moban2', '1468471343', '模板二', '/templates/moban2.zip', '/templates/moban2_thumb.jpg'), ('3', 'moban3', '1468471343', '模板三', '/templates/moban3.zip', '/templates/moban3_thumb.jpg'), ('4', 'moban4', '1468983936', '模板四', '/templates/moban4.zip', '/templates/moban4.zip');
+COMMIT;
 
 -- ----------------------------
 --  Table structure for `vip`
@@ -90,11 +105,11 @@ CREATE TABLE `update` (
 DROP TABLE IF EXISTS `vip`;
 CREATE TABLE `vip` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `vip` int(11) NOT NULL DEFAULT '1',
+  `title` varchar(255) NOT NULL DEFAULT '1',
   `domain` int(11) NOT NULL,
   `templates` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 --  Records of `vip`

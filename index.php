@@ -3,9 +3,9 @@ header("HTTP/1.1 200 OK");
 error_reporting(0);
 require("admin/inc/data.php");
 
-$act=isset($_GET['act'])?$_GET['act']:"";
-$domain=isset($_GET['domain'])?$_GET['domain']:"";
-$domain=!empty($_GET['domain'])?$_GET['domain']:"";
+$act=isset($_REQUEST['act'])?$_REQUEST['act']:"";//正式上线,换为POST接受
+$domain=isset($_REQUEST['domain'])?$_REQUEST['domain']:"";
+$domain=!empty($domain)?$domain:"";
 
 switch($act){
 	case "shouquan":
