@@ -31,13 +31,10 @@ function get_vip_shouquan($domain){
 //升级列表
 function get_update_list($domain){
     global $mysqli;
-    $sql = "select * from gengxin order by id desc";
+    $sql = "select * from gengxin order by id desc limit 1";//获取最新数据
     $result = $mysqli->query($sql);
     if ($result->num_rows > 0) {
-        while($row=$result->fetch_assoc()){
-            $data[]=$row;
-        }
-        return json_encode($data);
+        return json_encode($result->fetch_assoc());
     }
 }
 //模板列表
