@@ -29,21 +29,25 @@ function get_vip_shouquan($domain){
 //    }
 //}
 //升级列表
-function get_update_list(){
+function get_update_list($domain){
     global $mysqli;
-    $sql="select * from update order by id desc";
-    $result=$mysqli->query($sql);
-    if($result->num_rows>0){
-        return json_encode($result->fetch_assoc());
+    if(get_vip_shouquan($domain)) {
+        $sql = "select * from gengxin order by id desc";
+        $result = $mysqli->query($sql);
+        if ($result->num_rows > 0) {
+            return json_encode($result->fetch_assoc());
+        }
     }
 }
 //模板列表
-function get_templates_list(){
+function get_templates_list($domain){
     global $mysqli;
-    $sql="select * from templates order by id desc";
-    $result=$mysqli->query($sql);
-    if($result->num_rows>0){
-        return json_encode($result->fetch_assoc());
+    if(get_vip_shouquan($domain)) {
+        $sql = "select * from templates order by id desc";
+        $result = $mysqli->query($sql);
+        if ($result->num_rows > 0) {
+            return json_encode($result->fetch_assoc());
+        }
     }
 }
 ////更新在线时间及判断是否过期
