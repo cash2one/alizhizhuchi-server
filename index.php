@@ -11,14 +11,14 @@ switch($act){
 	case "shouquan":
 		echo get_vip_shouquan($domain);
 		break;
-//	case "vipjibie":
-//		echo get_vip_jibie($domain);
-//		break;
+	case "vipjibie":
+		echo get_vip_jibie();
+		break;
 	case "update":
-		echo get_update_list($domain);
+		echo get_update_list();
 		break;
 	case "templates":
-		echo get_templates_list($domain);
+		echo get_templates_list();
 		break;
 //	case "login":
 //		echo update_domain_login($domain);

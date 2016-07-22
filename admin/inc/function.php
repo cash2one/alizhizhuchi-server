@@ -14,22 +14,21 @@ function get_vip_shouquan($domain){
         return false;//未授权或已过期
     }
 }
-////获取vip级别,域名数量,模板数量
-//function get_vip_jibie($domain){
-//    global $mysqli;
-//    if(get_vip_shouquan($domain)){
-//        $domain=base64_encode($domain);
-//        $sql="select vip,domain,templates from vip where id=(select vip_id from domain where title='".$domain."')";
-//        $result=$mysqli->query($sql);
-//        if($result->num_rows>0){
-//            return json_encode($result->fetch_assoc());
-//        }
-//    }else{
-//        return false;
-//    }
-//}
+//获取vip级别,域名数量,模板数量
+function get_vip_jibie(){
+    global $mysqli;
+    $domain=base64_encode($domain);
+    $sql="select * from vip order by id asc";
+    $result=$mysqli->query($sql);
+    if($result->num_rows>0){
+        while($row=$result->fetch_assoc()){
+            $data[]=$row;
+        }
+        return json_encode($data);
+    }
+}
 //升级列表
-function get_update_list($domain){
+function get_update_list(){
     global $mysqli;
     $sql = "select * from gengxin order by id desc limit 1";//获取最新数据
     $result = $mysqli->query($sql);
@@ -38,7 +37,7 @@ function get_update_list($domain){
     }
 }
 //模板列表
-function get_templates_list($domain){
+function get_templates_list(){
     global $mysqli;
     $sql = "select * from templates order by id desc";
     $result = $mysqli->query($sql);
