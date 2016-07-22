@@ -8,7 +8,7 @@ function get_vip_shouquan($domain){
     if($result->num_rows>0){
         //更新验证时间
         $sql="update domain set login_time=".time()." where title='".$domain."'";
-        $result=$mysqli->query($sql);
+        $mysqli->query($sql);
         return json_encode($result->fetch_assoc());
     }else{
         return false;//未授权或已过期
