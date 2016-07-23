@@ -34,6 +34,9 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../domain.php" target="main">授权域名管理</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
 				<dd>
+					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../gonggao.php" target="main">公告管理</a><img class="icon5" src="../img/coin21.png" />
+				</dd>
+				<dd>
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../vip.php" target="main">VIP管理</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
 				<dd>
