@@ -48,30 +48,30 @@
       <file leaf-file-name="domain.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/domain.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+            <state relative-caret-position="315">
+              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
               <folding>
-                <marker date="1469280386000" expanded="true" signature="1214:1292" ph="update domai... " />
-                <marker date="1469280386000" expanded="true" signature="1347:1381" ph="select title... domain" />
-                <marker date="1469280386000" expanded="true" signature="1850:2797" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="1857:2106" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2114:2797" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2133:2797" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2156:2326" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2177:2318" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2347:2797" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2375:2797" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2406:2797" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2428:2797" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2475:2797" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2592:2797" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="2657:2690" ph="select * fro... vip" />
-                <marker date="1469280386000" expanded="true" signature="3080:3126" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="3213:3643" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="3223:3613" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="3810:3833" ph="..." />
-                <marker date="1469280386000" expanded="true" signature="4171:4204" ph="select * fro... vip" />
-                <marker date="1469280386000" expanded="true" signature="5365:5396" ph="select title... vip" />
+                <marker date="1469280469000" expanded="true" signature="1222:1300" ph="update domai... " />
+                <marker date="1469280469000" expanded="true" signature="1355:1389" ph="select title... domain" />
+                <marker date="1469280469000" expanded="true" signature="1858:2805" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="1865:2114" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2122:2805" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2141:2805" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2164:2334" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2185:2326" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2355:2805" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2383:2805" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2414:2805" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2436:2805" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2483:2805" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2600:2805" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="2665:2698" ph="select * fro... vip" />
+                <marker date="1469280469000" expanded="true" signature="3088:3134" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="3221:3651" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="3231:3621" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="3818:3841" ph="..." />
+                <marker date="1469280469000" expanded="true" signature="4179:4212" ph="select * fro... vip" />
+                <marker date="1469280469000" expanded="true" signature="5373:5404" ph="select title... vip" />
               </folding>
             </state>
           </provider>
@@ -385,7 +385,7 @@
       <workItem from="1469202479020" duration="114000" />
       <workItem from="1469234871058" duration="217000" />
       <workItem from="1469240724995" duration="697000" />
-      <workItem from="1469279573771" duration="452000" />
+      <workItem from="1469279573771" duration="537000" />
     </task>
     <task id="LOCAL-00001" summary="服务端v1.0">
       <created>1468984781975</created>
@@ -457,11 +457,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469235121206</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="添加新域名或修改域名授权信息,强制更新客户端">
+      <created>1469280450652</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1469280450652</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35669000" />
+    <option name="totallyTimeSpent" value="35754000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1389" height="877" extended-state="6" />
@@ -500,7 +507,8 @@
     <MESSAGE value="更新获取最新数据" />
     <MESSAGE value="修复更新获取" />
     <MESSAGE value="VIP修改可以修改名称" />
-    <option name="LAST_COMMIT_MESSAGE" value="VIP修改可以修改名称" />
+    <MESSAGE value="添加新域名或修改域名授权信息,强制更新客户端" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加新域名或修改域名授权信息,强制更新客户端" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1014,30 +1022,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/domain.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="315">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
           <folding>
-            <marker date="1469280386000" expanded="true" signature="1214:1292" ph="update domai... " />
-            <marker date="1469280386000" expanded="true" signature="1347:1381" ph="select title... domain" />
-            <marker date="1469280386000" expanded="true" signature="1850:2797" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="1857:2106" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2114:2797" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2133:2797" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2156:2326" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2177:2318" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2347:2797" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2375:2797" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2406:2797" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2428:2797" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2475:2797" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2592:2797" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="2657:2690" ph="select * fro... vip" />
-            <marker date="1469280386000" expanded="true" signature="3080:3126" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="3213:3643" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="3223:3613" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="3810:3833" ph="..." />
-            <marker date="1469280386000" expanded="true" signature="4171:4204" ph="select * fro... vip" />
-            <marker date="1469280386000" expanded="true" signature="5365:5396" ph="select title... vip" />
+            <marker date="1469280469000" expanded="true" signature="1222:1300" ph="update domai... " />
+            <marker date="1469280469000" expanded="true" signature="1355:1389" ph="select title... domain" />
+            <marker date="1469280469000" expanded="true" signature="1858:2805" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="1865:2114" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2122:2805" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2141:2805" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2164:2334" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2185:2326" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2355:2805" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2383:2805" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2414:2805" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2436:2805" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2483:2805" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2600:2805" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="2665:2698" ph="select * fro... vip" />
+            <marker date="1469280469000" expanded="true" signature="3088:3134" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="3221:3651" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="3231:3621" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="3818:3841" ph="..." />
+            <marker date="1469280469000" expanded="true" signature="4179:4212" ph="select * fro... vip" />
+            <marker date="1469280469000" expanded="true" signature="5373:5404" ph="select title... vip" />
           </folding>
         </state>
       </provider>

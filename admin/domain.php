@@ -19,7 +19,7 @@ switch($action){
 			if(info_add('domain',$data)==false){
 				echo "数据已存在";exit;
 			}
-			file_get_contents("http://".base64_decode($title)."/index.php?a=shouquan");
+			file_get_contents("http://".base64_decode($data['title'])."/index.php?a=shouquan");
 		}
 		break;
 	case "edit":
