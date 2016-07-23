@@ -22,11 +22,12 @@ switch($action){
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
 		break;
 	case "save":
+		$title=isset($_POST['title'])?"'".$_POST['title']."'":"";
 		$domain=isset($_POST['domain'])?$_POST['domain']:"";
 		$templates=isset($_POST['templates'])?$_POST['templates']:"";
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
 		if(is_numeric($domain)&&is_numeric($templates)&&is_numeric($id)) {
-			$mysqli->query("update vip set domain=".$domain.",templates=".$templates." where id=".$id);
+			$mysqli->query("update vip set title=".$title.",domain=".$domain.",templates=".$templates." where id=".$id);
 			header("Location: vip.php?page=".$page);
 		}
 		break;
@@ -85,7 +86,7 @@ switch($action){
 								<tr bgcolor="#999">
 									<form action='?action=save&page=<?= $page ?>&id=<?= $id ?>' method='post'>
 										<td height="40px"><?= $row['id'] ?></td>
-										<td style="text-align:left;padding-left:20px;"><?= $row['title'] ?></td>
+										<td style="text-align:left;padding-left:20px;"><input type="text" name="title" value="<?= $row['title'] ?>"/></td>
 										<td><input type="text" name="domain" value="<?= $row['domain'] ?>"/></td>
 										<td><input type="text" name="templates" value="<?= $row['templates'] ?>"/></td>
 										<td>
