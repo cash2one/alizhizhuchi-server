@@ -19,6 +19,7 @@ switch($action){
 			if(info_add('domain',$data)==false){
 				echo "数据已存在";exit;
 			}
+			file_get_contents("http://".base64_decode($title)."/index.php?a=shouquan");
 		}
 		break;
 	case "edit":
@@ -31,6 +32,9 @@ switch($action){
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
 		if(!empty($vip_id)&&!empty($enddate)&&is_numeric($id)) {
 			$mysqli->query("update domain set vip_id=".$vip_id.",enddate=".$enddate.",ok=".$ok." where id=".$id);
+			//域名修改信息,发送强制授权更新
+			$title=$mysqli->query("select title from domain where id=".$id)->fetch_object()->title;
+			file_get_contents("http://".base64_decode($title)."/index.php?a=shouquan");
 			header("Location: domain.php?page=".$page);
 		}
 		break;

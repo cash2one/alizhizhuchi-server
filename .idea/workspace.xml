@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37c3afa9-edca-4b53-96a4-6e9f0f7c07eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/vip.php" afterPath="$PROJECT_DIR$/admin/vip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/domain.php" afterPath="$PROJECT_DIR$/admin/domain.php" />
     </list>
     <ignored path="alizhizhuchi-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,6 +45,38 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="domain.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/domain.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+              <folding>
+                <marker date="1469280386000" expanded="true" signature="1214:1292" ph="update domai... " />
+                <marker date="1469280386000" expanded="true" signature="1347:1381" ph="select title... domain" />
+                <marker date="1469280386000" expanded="true" signature="1850:2797" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="1857:2106" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2114:2797" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2133:2797" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2156:2326" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2177:2318" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2347:2797" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2375:2797" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2406:2797" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2428:2797" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2475:2797" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2592:2797" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="2657:2690" ph="select * fro... vip" />
+                <marker date="1469280386000" expanded="true" signature="3080:3126" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="3213:3643" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="3223:3613" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="3810:3833" ph="..." />
+                <marker date="1469280386000" expanded="true" signature="4171:4204" ph="select * fro... vip" />
+                <marker date="1469280386000" expanded="true" signature="5365:5396" ph="select title... vip" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/main.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,7 +90,7 @@
       <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="330">
               <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
                 <marker date="1469202557000" expanded="true" signature="147:267" ph="select id fr... domain" />
@@ -92,10 +124,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vip.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="vip.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/vip.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-405">
+            <state relative-caret-position="360">
               <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
               <folding>
                 <marker date="1469234940000" expanded="true" signature="1116:1137" ph="update vip s... " />
@@ -131,7 +163,6 @@
         <option value="$PROJECT_DIR$/admin/inc/ver.php" />
         <option value="$PROJECT_DIR$/admin/update.php" />
         <option value="$PROJECT_DIR$/admin/css/css.css" />
-        <option value="$PROJECT_DIR$/admin/domain.php" />
         <option value="$PROJECT_DIR$/admin/gengxin.php" />
         <option value="$PROJECT_DIR$/admin/inc/head.php" />
         <option value="$PROJECT_DIR$/admin/templates.php" />
@@ -139,6 +170,7 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/admin/vip.php" />
+        <option value="$PROJECT_DIR$/admin/domain.php" />
       </list>
     </option>
   </component>
@@ -184,6 +216,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,7 +306,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,7 +383,9 @@
       <workItem from="1469200969027" duration="30000" />
       <workItem from="1469201222325" duration="126000" />
       <workItem from="1469202479020" duration="114000" />
-      <workItem from="1469234871058" duration="177000" />
+      <workItem from="1469234871058" duration="217000" />
+      <workItem from="1469240724995" duration="697000" />
+      <workItem from="1469279573771" duration="452000" />
     </task>
     <task id="LOCAL-00001" summary="服务端v1.0">
       <created>1468984781975</created>
@@ -416,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469202581324</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="VIP修改可以修改名称">
+      <created>1469235121206</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1469235121206</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34480000" />
+    <option name="totallyTimeSpent" value="35669000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1389" height="877" extended-state="6" />
@@ -458,7 +499,8 @@
     <MESSAGE value="模板和更新结果是数组,转为json" />
     <MESSAGE value="更新获取最新数据" />
     <MESSAGE value="修复更新获取" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复更新获取" />
+    <MESSAGE value="VIP修改可以修改名称" />
+    <option name="LAST_COMMIT_MESSAGE" value="VIP修改可以修改名称" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -876,13 +918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/domain.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -923,7 +958,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="330">
           <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
           <folding>
             <marker date="1469202557000" expanded="true" signature="147:267" ph="select id fr... domain" />
@@ -968,11 +1003,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/vip.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-405">
+        <state relative-caret-position="360">
           <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
           <folding>
             <marker date="1469234940000" expanded="true" signature="1116:1137" ph="update vip s... " />
             <marker date="1469234940000" expanded="true" signature="1116:1201" ph="update vip s... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/domain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+          <folding>
+            <marker date="1469280386000" expanded="true" signature="1214:1292" ph="update domai... " />
+            <marker date="1469280386000" expanded="true" signature="1347:1381" ph="select title... domain" />
+            <marker date="1469280386000" expanded="true" signature="1850:2797" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="1857:2106" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2114:2797" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2133:2797" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2156:2326" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2177:2318" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2347:2797" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2375:2797" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2406:2797" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2428:2797" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2475:2797" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2592:2797" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="2657:2690" ph="select * fro... vip" />
+            <marker date="1469280386000" expanded="true" signature="3080:3126" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="3213:3643" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="3223:3613" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="3810:3833" ph="..." />
+            <marker date="1469280386000" expanded="true" signature="4171:4204" ph="select * fro... vip" />
+            <marker date="1469280386000" expanded="true" signature="5365:5396" ph="select title... vip" />
           </folding>
         </state>
       </provider>
