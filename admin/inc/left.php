@@ -39,9 +39,9 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 				<dd>
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../vip.php" target="main">VIP管理</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
-				<dd>
-					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../gengxin.php" target="main">更新管理</a><img class="icon5" src="../img/coin21.png" />
-				</dd>
+<!--				<dd>-->
+<!--					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../gengxin.php" target="main">更新管理</a><img class="icon5" src="../img/coin21.png" />-->
+<!--				</dd>-->
 				<dd>
 					<img class="coin11" src="../img/coin111.png" /><img class="coin22" src="../img/coin222.png" /><a class="cks" href="../templates.php" target="main">模板管理</a><img class="icon5" src="../img/coin21.png" />
 				</dd>
