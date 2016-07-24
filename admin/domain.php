@@ -88,14 +88,15 @@ switch($action){
 				<span style="float:right">合计(<?=data_num('domain')?>)</span>
 				<table border="1" cellspacing="0" cellpadding="0" width="100%">
 					<tr>
-						<td width="66px" class="tdColor tdC">序号</td>
-						<td width="250px" class="tdColor">域名</td>
-						<td class="tdColor">VIP</td>
-						<td width="100px" class="tdColor">在线时间</td>
+						<td width="50px" class="tdColor tdC">序号</td>
+						<td class="tdColor">域名</td>
+						<td width="70px" class="tdColor">VIP</td>
+						<td width="150px" class="tdColor">在线时间</td>
+						<td width="70px" class="tdColor">域名数量</td>
 						<td width="50px" class="tdColor">状态</td>
 						<td width="150px" class="tdColor">购买时间</td>
 						<td width="150px" class="tdColor">过期时间</td>
-						<td width="100px" class="tdColor">操作</td>
+						<td width="120px" class="tdColor">操作</td>
 					</tr>
 					<?php
 					if(info_list('domain',$page)){
@@ -118,6 +119,7 @@ switch($action){
 												?>
 											</select></td>
 										<td><?= $row['login_time']?date('m-d H:i:s',$row['login_time']):"" ?></td>
+										<td><?= $row['domain_num'] ?></td>
 										<td>
 											<select name="ok">
 												<option value="1">开启</option>
@@ -138,11 +140,12 @@ switch($action){
 									<td style="text-align:left;padding-left:20px;"><?= base64_decode($row['title']) ?></td>
 									<td><?= $mysqli->query("select title from vip where id=".$row['vip_id'])->fetch_object()->title ?></td>
 									<td><?= $row['login_time']?date('m-d H:i:s',$row['login_time']):"" ?></td>
+									<td><?= $row['domain_num']?></td>
 									<td><?= $row['ok']?"开启":"关闭" ?></td>
 									<td><?= date('Y-m-d H:i:s',$row['startdate']) ?></td>
 									<td><?= date('Y-m-d H:i:s',$row['enddate']) ?></td>
 									<td>
-										<a href="?action=edit&page=<?=$page?>&id=<?= $row['id'] ?>"><img class="operation" src="img/update.png"></a> <a href="?action=del&page=<?=$page?>&id=<?=$row['id']?>"><img class="operation delban" src="img/delete.png"></a></td>
+										<a href="domain_dail?id=<?= $row['id'] ?>"><img class="operation" src="img/coin11.png"></a> <a href="?action=edit&page=<?=$page?>&id=<?= $row['id'] ?>"><img class="operation" src="img/update.png"></a> <a href="?action=del&page=<?=$page?>&id=<?=$row['id']?>"><img class="operation delban" src="img/delete.png"></a></td>
 								</tr>
 								<?php
 							}

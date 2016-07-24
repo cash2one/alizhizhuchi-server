@@ -28,14 +28,14 @@ function get_vip_jibie(){
     }
 }
 //升级列表
-function get_update_list(){
-    global $mysqli;
-    $sql = "select * from gengxin order by id desc limit 1";//获取最新数据
-    $result = $mysqli->query($sql);
-    if ($result->num_rows > 0) {
-        return json_encode($result->fetch_assoc());
-    }
-}
+//function get_update_list(){
+//    global $mysqli;
+//    $sql = "select * from gengxin order by id desc limit 1";//获取最新数据
+//    $result = $mysqli->query($sql);
+//    if ($result->num_rows > 0) {
+//        return json_encode($result->fetch_assoc());
+//    }
+//}
 //模板列表
 function get_templates_list(){
     global $mysqli;
@@ -136,14 +136,25 @@ function info_add($from,$data){
     }
     header("Location: ".$from.".php");
 }
-function info_save($from,$data,$page,$id){
-    global $mysqli;
-    $mysqli->query("update ".$from." set title='".$title."' where id=".$id);
-    header("Location: info.php?act=".$from."&page=".$page);
-}
+//function info_save($from,$data,$page,$id){
+//    global $mysqli;
+//    $mysqli->query("update ".$from." set title='".$title."' where id=".$id);
+//    header("Location: info.php?act=".$from."&page=".$page);
+//}
 function info_del($from,$page,$id){
     global $mysqli;
     $mysqli->query("delete from ".$from." where id=".$id);
     header("Location: ".$from.".php?page=".$page);
+}
+function update_domain_data($domain,$domain_num,$spider_num){
+    global $mysqli;
+    $domain=base64_encode($domain);
+    $domain_id=$mysqli->query("select id from domain where title='" . $domain . "'")->fetch_object()->id;
+    if($domain_id){
+        //更新域名数量
+        $mysqli->query("update domain set domain_num=".$domain_num." where title='".$domain."'");
+        //更新蜘蛛数量
+        $mysqli->query("insert into spider (domain_id,spider_num,date) values(".$domain_id.",".$spider_num.",".time().")");
+    }
 }
 ?>
