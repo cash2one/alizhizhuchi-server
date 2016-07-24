@@ -28,8 +28,8 @@ switch($action){
 		$templates=isset($_POST['templates'])?$_POST['templates']:"";
 		$url=isset($_POST['url'])?$_POST['url']:"";
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
-		if(!empty($data['title'])&&!empty($data['url'])&&is_numeric($domain)&&is_numeric($templates)&&is_numeric($id)) {
-			$mysqli->query("update vip set title=".$title.",domain=".$domain.",templates=".$templates." where id=".$id);
+		if(!empty($title)&&!empty($url)&&is_numeric($domain)&&is_numeric($templates)&&is_numeric($id)) {
+			$mysqli->query("update vip set title=".$title.",domain=".$domain.",templates=".$templates.",url='".$url."' where id=".$id);
 			header("Location: vip.php?page=".$page);
 		}
 		break;
