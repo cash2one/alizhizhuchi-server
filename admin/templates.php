@@ -23,8 +23,8 @@ switch($action){
 //		echo "Type: " . $_FILES["zip"]["type"] . "";
 				move_uploaded_file($_FILES["zip"]["tmp_name"],"../templates/" . $_FILES["zip"]["name"]);
 				$data['zip']="'/templates/". $_FILES["zip"]["name"]."'";
-				move_uploaded_file($_FILES["thumb"]["tmp_name"],"../templates/" . $_FILES["zip"]["name"]);
-				$data['thumb']="'/templates/". $_FILES["zip"]["name"]."'";
+				move_uploaded_file($_FILES["thumb"]["tmp_name"],"../templates/" . $_FILES["thumb"]["name"]);
+				$data['thumb']="'/templates/". $_FILES["thumb"]["name"]."'";
 				if(info_add('templates',$data)==false){
 					echo "数据已存在";exit;
 				}

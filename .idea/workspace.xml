@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c3afa9-edca-4b53-96a4-6e9f0f7c07eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/gonggao.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/left.php" afterPath="$PROJECT_DIR$/admin/inc/left.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates.php" afterPath="$PROJECT_DIR$/admin/templates.php" />
     </list>
     <ignored path="alizhizhuchi-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,39 +35,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ver.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/inc/ver.php">
+      <file leaf-file-name="templates.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/templates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="domain.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/domain.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+            <state relative-caret-position="225">
+              <caret line="105" column="66" selection-start-line="105" selection-start-column="66" selection-end-line="105" selection-end-column="66" />
               <folding>
-                <marker date="1469280469000" expanded="true" signature="1222:1300" ph="update domai... " />
-                <marker date="1469280469000" expanded="true" signature="1355:1389" ph="select title... domain" />
-                <marker date="1469280469000" expanded="true" signature="2665:2698" ph="select * fro... vip" />
-                <marker date="1469280469000" expanded="true" signature="4179:4212" ph="select * fro... vip" />
-                <marker date="1469280469000" expanded="true" signature="5373:5404" ph="select title... vip" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gonggao.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/gonggao.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="88" column="102" selection-start-line="88" selection-start-column="102" selection-end-line="88" selection-end-column="102" />
-              <folding>
-                <marker date="1469285366000" expanded="true" signature="877:918" ph="update domai... " />
+                <marker date="1469333629000" expanded="true" signature="1526:1575" ph="update templ... " />
               </folding>
             </state>
           </provider>
@@ -121,29 +94,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vip.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/vip.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="65" selection-start-line="24" selection-start-column="65" selection-end-line="24" selection-end-column="65" />
-              <folding>
-                <marker date="1469234940000" expanded="true" signature="1116:1137" ph="update vip s... " />
-                <marker date="1469234940000" expanded="true" signature="1116:1201" ph="update vip s... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="left.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gengxin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/gengxin.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -171,7 +121,6 @@
         <option value="$PROJECT_DIR$/admin/css/css.css" />
         <option value="$PROJECT_DIR$/admin/gengxin.php" />
         <option value="$PROJECT_DIR$/admin/inc/head.php" />
-        <option value="$PROJECT_DIR$/admin/templates.php" />
         <option value="$PROJECT_DIR$/admin/main.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
@@ -179,6 +128,7 @@
         <option value="$PROJECT_DIR$/admin/domain.php" />
         <option value="$PROJECT_DIR$/admin/inc/left.php" />
         <option value="$PROJECT_DIR$/admin/gonggao.php" />
+        <option value="$PROJECT_DIR$/admin/templates.php" />
       </list>
     </option>
   </component>
@@ -225,6 +175,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,7 +264,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,7 +345,8 @@
       <workItem from="1469240724995" duration="697000" />
       <workItem from="1469279573771" duration="697000" />
       <workItem from="1469280787889" duration="255000" />
-      <workItem from="1469284528665" duration="844000" />
+      <workItem from="1469284528665" duration="936000" />
+      <workItem from="1469333536366" duration="363000" />
     </task>
     <task id="LOCAL-00001" summary="服务端v1.0">
       <created>1468984781975</created>
@@ -481,11 +432,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469280492704</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="增加公告信息">
+      <created>1469285401797</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1469285401797</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37013000" />
+    <option name="totallyTimeSpent" value="37468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1389" height="877" extended-state="6" />
@@ -526,7 +484,8 @@
     <MESSAGE value="VIP修改可以修改名称" />
     <MESSAGE value="添加新域名或修改域名授权信息,强制更新客户端" />
     <MESSAGE value="base64解码" />
-    <option name="LAST_COMMIT_MESSAGE" value="base64解码" />
+    <MESSAGE value="增加公告信息" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加公告信息" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -937,18 +896,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/templates.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/gonggao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="88" column="102" selection-start-line="88" selection-start-column="102" selection-end-line="88" selection-end-column="102" />
+          <folding>
+            <marker date="1469285366000" expanded="true" signature="877:918" ph="update domai... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/domain.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
+          <folding>
+            <marker date="1469280469000" expanded="true" signature="1222:1300" ph="update domai... " />
+            <marker date="1469280469000" expanded="true" signature="1355:1389" ph="select title... domain" />
+            <marker date="1469280469000" expanded="true" signature="2665:2698" ph="select * fro... vip" />
+            <marker date="1469280469000" expanded="true" signature="4179:4212" ph="select * fro... vip" />
+            <marker date="1469280469000" expanded="true" signature="5373:5404" ph="select title... vip" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -977,36 +969,6 @@
           <folding>
             <marker date="1469234940000" expanded="true" signature="1116:1137" ph="update vip s... " />
             <marker date="1469234940000" expanded="true" signature="1116:1201" ph="update vip s... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/domain.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="68" selection-start-line="21" selection-start-column="68" selection-end-line="21" selection-end-column="68" />
-          <folding>
-            <marker date="1469280469000" expanded="true" signature="1222:1300" ph="update domai... " />
-            <marker date="1469280469000" expanded="true" signature="1355:1389" ph="select title... domain" />
-            <marker date="1469280469000" expanded="true" signature="2665:2698" ph="select * fro... vip" />
-            <marker date="1469280469000" expanded="true" signature="4179:4212" ph="select * fro... vip" />
-            <marker date="1469280469000" expanded="true" signature="5373:5404" ph="select title... vip" />
           </folding>
         </state>
       </provider>
@@ -1046,12 +1008,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/gonggao.php">
+    <entry file="file://$PROJECT_DIR$/admin/templates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="88" column="102" selection-start-line="88" selection-start-column="102" selection-end-line="88" selection-end-column="102" />
+        <state relative-caret-position="225">
+          <caret line="105" column="66" selection-start-line="105" selection-start-column="66" selection-end-line="105" selection-end-column="66" />
           <folding>
-            <marker date="1469285366000" expanded="true" signature="877:918" ph="update domai... " />
+            <marker date="1469333629000" expanded="true" signature="1526:1575" ph="update templ... " />
           </folding>
         </state>
       </provider>
