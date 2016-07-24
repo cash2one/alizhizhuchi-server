@@ -11,7 +11,7 @@
  Target Server Version : 50712
  File Encoding         : utf-8
 
- Date: 07/24/2016 22:31:16 PM
+ Date: 07/24/2016 23:34:25 PM
 */
 
 SET NAMES utf8;
@@ -147,6 +147,7 @@ CREATE TABLE `vip` (
   `title` varchar(255) NOT NULL DEFAULT '1',
   `domain` int(11) NOT NULL,
   `templates` int(11) NOT NULL,
+  `url` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
@@ -154,7 +155,7 @@ CREATE TABLE `vip` (
 --  Records of `vip`
 -- ----------------------------
 BEGIN;
-INSERT INTO `vip` VALUES ('1', 'VIP 1', '50', '5'), ('3', 'VIP 2', '100', '10'), ('4', 'VIP 3', '300', '20'), ('5', 'VIP 4', '600', '50');
+INSERT INTO `vip` VALUES ('1', 'VIP 1', '50', '5', ''), ('3', 'VIP 2', '100', '10', ''), ('4', 'VIP 3', '300', '20', ''), ('5', 'VIP 4', '600', '50', '');
 COMMIT;
 
 SET FOREIGN_KEY_CHECKS = 1;

@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37c3afa9-edca-4b53-96a4-6e9f0f7c07eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/vip.php" afterPath="$PROJECT_DIR$/admin/vip.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/alizhizhuchi_server.sql" afterPath="$PROJECT_DIR$/alizhizhuchi_server.sql" />
     </list>
     <ignored path="alizhizhuchi-server.iws" />
@@ -286,7 +285,7 @@
       <workItem from="1469343512836" duration="837000" />
       <workItem from="1469345102614" duration="232000" />
       <workItem from="1469365172102" duration="37000" />
-      <workItem from="1469374209664" duration="187000" />
+      <workItem from="1469374209664" duration="259000" />
     </task>
     <task id="LOCAL-00001" summary="服务端v1.0">
       <created>1468984781975</created>
@@ -421,11 +420,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469345326756</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="增加vip购买url地址">
+      <created>1469374411086</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1469374411086</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43134000" />
+    <option name="totallyTimeSpent" value="43206000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -481,7 +487,8 @@
     <MESSAGE value="增加蜘蛛统计" />
     <MESSAGE value="临时去掉在线更新,改用公告方式,用户手动更新" />
     <MESSAGE value="增加公告列表接口" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加公告列表接口" />
+    <MESSAGE value="增加vip购买url地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加vip购买url地址" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
