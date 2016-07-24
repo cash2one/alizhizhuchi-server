@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37c3afa9-edca-4b53-96a4-6e9f0f7c07eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="alizhizhuchi-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
@@ -87,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="function.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="435">
@@ -398,7 +396,7 @@
       <workItem from="1469341564289" duration="222000" />
       <workItem from="1469343199244" duration="50000" />
       <workItem from="1469343512836" duration="837000" />
-      <workItem from="1469345102614" duration="209000" />
+      <workItem from="1469345102614" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="服务端v1.0">
       <created>1468984781975</created>
@@ -526,11 +524,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469344346651</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="增加公告列表接口">
+      <created>1469345326756</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1469345326756</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42887000" />
+    <option name="totallyTimeSpent" value="42910000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -585,7 +590,8 @@
     <MESSAGE value="域名管理增加客户端域名数量,蜘蛛量统计&#10;增加客户端信息接收" />
     <MESSAGE value="增加蜘蛛统计" />
     <MESSAGE value="临时去掉在线更新,改用公告方式,用户手动更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="临时去掉在线更新,改用公告方式,用户手动更新" />
+    <MESSAGE value="增加公告列表接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加公告列表接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1101,14 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1147,6 +1145,14 @@
             <marker date="1469345302000" expanded="true" signature="6379:6464" ph="insert into spider... " />
             <marker date="1469345302000" expanded="true" signature="6379:6488" ph="insert into spider... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
