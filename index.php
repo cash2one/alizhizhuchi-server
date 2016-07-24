@@ -16,11 +16,14 @@ switch($act){
 	case "vipjibie":
 		echo get_vip_jibie();
 		break;
-	case "update":
-		echo get_update_list();
-		break;
+//	case "update":
+//		echo get_update_list();
+//		break;
 	case "templates":
 		echo get_templates_list();
+		break;
+	case "gonggao":
+		echo get_gonggao_list();
 		break;
 //	case "login":
 //		echo update_domain_login($domain);

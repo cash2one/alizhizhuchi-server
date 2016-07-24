@@ -27,6 +27,18 @@ function get_vip_jibie(){
         return json_encode($data);
     }
 }
+//获取公告列表
+function get_gonggao_list(){
+    global $mysqli;
+    $sql="select * from gonggao order by id desc limit 6";
+    $result=$mysqli->query($sql);
+    if($result->num_rows>0){
+        while($row=$result->fetch_assoc()){
+            $data[]=$row;
+        }
+        return json_encode($data);
+    }
+}
 //升级列表
 //function get_update_list(){
 //    global $mysqli;
