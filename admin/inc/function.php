@@ -114,9 +114,22 @@ function list_page($from,$page,$type=''){
         return $str;
     }
 }
-function data_num($from){
+//$from:数据表;$num:统计天数;$day:具体某天;$type:搜索引擎;
+function data_num($from,$num='',$day=''){
     global $mysqli;
     $sql="select count(*) as count from ".$from;
+    //$sql.=" where DATE_FORMAT(FROM_UNIXTIME(rq),'%Y-%m-%d') = DATE_FORMAT(NOW(),'%Y-%m-%d')";
+    if($from=='spider'){
+        if($num && is_numeric($num)){
+            $num='-'.($num-1).' day';
+            $riqi=strtotime(date('Y-m-d',strtotime($num)));
+            //$riqi=time()-$num*24*3600;
+            $sql.=" where date>$riqi";
+        }
+        if($day){
+            $sql.=" where DATE_FORMAT(FROM_UNIXTIME(date),'%Y-%m-%d') = '".date('Y-m-d',strtotime($day))."'";
+        }
+    }
     $num_all=$mysqli->query($sql)->fetch_object()->count;
     return $num_all;
 }
@@ -153,8 +166,8 @@ function update_domain_data($domain,$domain_num,$spider_num){
     if($domain_id){
         //更新域名数量
         $mysqli->query("update domain set domain_num=".$domain_num." where title='".$domain."'");
-        //更新蜘蛛数量
-        $mysqli->query("insert into spider (domain_id,spider_num,date) values(".$domain_id.",".$spider_num.",".time().")");
+        //更新蜘蛛数量,日期为昨日
+        $mysqli->query("insert into spider (domain_id,spider_num,date) values(".$domain_id.",".$spider_num.",".strtotime("-1 day").")");
     }
 }
 ?>
