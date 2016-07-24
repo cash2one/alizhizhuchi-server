@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="37c3afa9-edca-4b53-96a4-6e9f0f7c07eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/templates.php" afterPath="$PROJECT_DIR$/admin/templates.php" />
     </list>
     <ignored path="alizhizhuchi-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="templates.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/templates.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="105" column="66" selection-start-line="105" selection-start-column="66" selection-end-line="105" selection-end-column="66" />
+            <state relative-caret-position="255">
+              <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
               <folding>
                 <marker date="1469333629000" expanded="true" signature="1526:1575" ph="update templ... " />
               </folding>
@@ -346,7 +345,7 @@
       <workItem from="1469279573771" duration="697000" />
       <workItem from="1469280787889" duration="255000" />
       <workItem from="1469284528665" duration="936000" />
-      <workItem from="1469333536366" duration="363000" />
+      <workItem from="1469333536366" duration="500000" />
     </task>
     <task id="LOCAL-00001" summary="服务端v1.0">
       <created>1468984781975</created>
@@ -439,11 +438,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469285401797</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="修复模板图片上传调用错误">
+      <created>1469334078366</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1469334078366</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37468000" />
+    <option name="totallyTimeSpent" value="37605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1389" height="877" extended-state="6" />
@@ -485,7 +491,8 @@
     <MESSAGE value="添加新域名或修改域名授权信息,强制更新客户端" />
     <MESSAGE value="base64解码" />
     <MESSAGE value="增加公告信息" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加公告信息" />
+    <MESSAGE value="修复模板图片上传调用错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复模板图片上传调用错误" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1010,8 +1017,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/templates.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="105" column="66" selection-start-line="105" selection-start-column="66" selection-end-line="105" selection-end-column="66" />
+        <state relative-caret-position="255">
+          <caret line="107" column="44" selection-start-line="107" selection-start-column="44" selection-end-line="107" selection-end-column="44" />
           <folding>
             <marker date="1469333629000" expanded="true" signature="1526:1575" ph="update templ... " />
           </folding>
