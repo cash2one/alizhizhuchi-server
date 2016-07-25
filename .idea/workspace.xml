@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="37c3afa9-edca-4b53-96a4-6e9f0f7c07eb" name="Default" comment="更新">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ad/wellcom.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/img/wellcom.jpg" afterPath="" />
+    <list default="true" id="37c3afa9-edca-4b53-96a4-6e9f0f7c07eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/head.php" afterPath="$PROJECT_DIR$/admin/inc/head.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/log.php" afterPath="$PROJECT_DIR$/admin/log.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/left.php" afterPath="$PROJECT_DIR$/admin/inc/left.php" />
     </list>
     <ignored path="alizhizhuchi-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,24 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
+      <file leaf-file-name="left.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
+            <state relative-caret-position="480">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="log.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/log.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-              <folding>
-                <marker date="1469430456000" expanded="true" signature="530:610" ph="select id fr... admin" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -68,13 +53,13 @@
         <option value="$PROJECT_DIR$/admin/templates.php" />
         <option value="$PROJECT_DIR$/admin/domain_dail.php" />
         <option value="$PROJECT_DIR$/admin/main.php" />
-        <option value="$PROJECT_DIR$/admin/inc/left.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/admin/vip.php" />
         <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/admin/domain.php" />
         <option value="$PROJECT_DIR$/admin/log.php" />
         <option value="$PROJECT_DIR$/admin/inc/head.php" />
+        <option value="$PROJECT_DIR$/admin/inc/left.php" />
       </list>
     </option>
   </component>
@@ -305,7 +290,7 @@
       <workItem from="1469427977697" duration="74000" />
       <workItem from="1469430395370" duration="69000" />
       <workItem from="1469430466870" duration="33000" />
-      <workItem from="1469435603588" duration="21000" />
+      <workItem from="1469435603588" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="服务端v1.0">
       <created>1468984781975</created>
@@ -475,11 +460,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469412059657</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="广告图片放到ad文件夹">
+      <created>1469435649160</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1469435649160</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44867000" />
+    <option name="totallyTimeSpent" value="44958000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -539,7 +531,8 @@
     <MESSAGE value="修复vip购买url地址" />
     <MESSAGE value="vip列表接口改为无限扩展模式" />
     <MESSAGE value="修复域名信息详情链接" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复域名信息详情链接" />
+    <MESSAGE value="广告图片放到ad文件夹" />
+    <option name="LAST_COMMIT_MESSAGE" value="广告图片放到ad文件夹" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -811,13 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -867,6 +853,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/log.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
+          <folding>
+            <marker date="1469430456000" expanded="true" signature="530:610" ph="select id fr... admin" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/inc/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -875,13 +871,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/log.php">
+    <entry file="file://$PROJECT_DIR$/admin/inc/left.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="45" column="60" selection-start-line="45" selection-start-column="60" selection-end-line="45" selection-end-column="60" />
-          <folding>
-            <marker date="1469430456000" expanded="true" signature="530:610" ph="select id fr... admin" />
-          </folding>
+        <state relative-caret-position="480">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
