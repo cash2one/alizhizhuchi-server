@@ -145,7 +145,7 @@ switch($action){
 									<td><?= date('Y-m-d H:i:s',$row['startdate']) ?></td>
 									<td><?= date('Y-m-d H:i:s',$row['enddate']) ?></td>
 									<td>
-										<a href="domain_dail?id=<?= $row['id'] ?>"><img class="operation" src="img/coin11.png"></a> <a href="?action=edit&page=<?=$page?>&id=<?= $row['id'] ?>"><img class="operation" src="img/update.png"></a> <a href="?action=del&page=<?=$page?>&id=<?=$row['id']?>"><img class="operation delban" src="img/delete.png"></a></td>
+										<a href="domain_dail.php?id=<?= $row['id'] ?>"><img class="operation" src="img/coin11.png"></a> <a href="?action=edit&page=<?=$page?>&id=<?= $row['id'] ?>"><img class="operation" src="img/update.png"></a> <a href="?action=del&page=<?=$page?>&id=<?=$row['id']?>"><img class="operation delban" src="img/delete.png"></a></td>
 								</tr>
 								<?php
 							}
