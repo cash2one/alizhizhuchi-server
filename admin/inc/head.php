@@ -22,7 +22,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 			<?=SYSTEM_NAME?><span><?=VER?></span>
 		</div>
 		<div class="headR">
-			<img src="../img/wellcom.jpg"/>
+			<img src="/ad/wellcom.jpg"/>
 		</div>
 	</div>
 </body>
