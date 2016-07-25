@@ -40,14 +40,14 @@ function get_gonggao_list(){
     }
 }
 //升级列表
-//function get_update_list(){
-//    global $mysqli;
-//    $sql = "select * from gengxin order by id desc limit 1";//获取最新数据
-//    $result = $mysqli->query($sql);
-//    if ($result->num_rows > 0) {
-//        return json_encode($result->fetch_assoc());
-//    }
-//}
+function get_update_list($ver_title){
+    global $mysqli;
+    $sql = "select * from gengxin where id>(select id from gengxin where title='".$ver_title."') limit 1";//获取最新数据
+    $result = $mysqli->query($sql);
+    if ($result->num_rows > 0) {
+        return json_encode($result->fetch_assoc());
+    }
+}
 //模板列表
 function get_templates_list(){
     global $mysqli;
@@ -95,12 +95,6 @@ function info_list($from,$page){
     if($result->num_rows>0){
         while($row = $result->fetch_assoc())
         {
-//            $row['title']=base64_decode($row['title']);
-//            $row['vip']=$mysqli->query("select vip from vip where id=".$row['vip_id'])->fetch_object()->vip;
-//            $row['startdate']=date('Y-m-d H:i:s',$row['startdate']);
-//            $row['enddate']=date('Y-m-d H:i:s',$row['enddate']);
-//            $row['login_time']=$row['login_time']?date('m-d H:i:s',$row['login_time']):"";
-//            $row['ok']=$row['ok']?"开启":"关闭";
             $data[] = $row;
         }
         return $data;
@@ -130,7 +124,6 @@ function list_page($from,$page,$type=''){
 function data_num($from,$num='',$day=''){
     global $mysqli;
     $sql="select count(*) as count from ".$from;
-    //$sql.=" where DATE_FORMAT(FROM_UNIXTIME(rq),'%Y-%m-%d') = DATE_FORMAT(NOW(),'%Y-%m-%d')";
     if($from=='spider'){
         if($num && is_numeric($num)){
             $num='-'.($num-1).' day';
@@ -161,11 +154,6 @@ function info_add($from,$data){
     }
     header("Location: ".$from.".php");
 }
-//function info_save($from,$data,$page,$id){
-//    global $mysqli;
-//    $mysqli->query("update ".$from." set title='".$title."' where id=".$id);
-//    header("Location: info.php?act=".$from."&page=".$page);
-//}
 function info_del($from,$page,$id){
     global $mysqli;
     $mysqli->query("delete from ".$from." where id=".$id);
