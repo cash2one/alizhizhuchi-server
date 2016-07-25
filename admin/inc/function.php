@@ -17,13 +17,13 @@ function get_vip_shouquan($domain){
 //获取vip级别,域名数量,模板数量
 function get_vip_jibie(){
     global $mysqli;
-    $domain=base64_encode($domain);
-    $sql="select * from vip order by id asc";
+    $sql="select title,domain,templates,url from vip order by id asc";
     $result=$mysqli->query($sql);
     if($result->num_rows>0){
         while($row=$result->fetch_assoc()){
-            $data[]=$row;
+            $data[0][]=$row;
         }
+        $data['shuoming']=array("VIP级别","域名数量","模板数量");
         return json_encode($data);
     }
 }

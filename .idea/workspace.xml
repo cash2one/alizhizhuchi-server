@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="37c3afa9-edca-4b53-96a4-6e9f0f7c07eb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/vip.php" afterPath="$PROJECT_DIR$/admin/vip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/inc/function.php" afterPath="$PROJECT_DIR$/admin/inc/function.php" />
     </list>
     <ignored path="alizhizhuchi-server.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,30 +25,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="vip.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/vip.php">
+      <file leaf-file-name="function.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
               <folding>
-                <marker date="1469374732000" expanded="true" signature="1268:1349" ph="update vip s... " />
-                <marker date="1469374732000" expanded="true" signature="1268:1368" ph="update vip s... " />
-                <marker date="1469374732000" expanded="true" signature="1268:1466" ph="update vip s... " />
-                <marker date="1469374732000" expanded="true" signature="1729:2892" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="1736:1986" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="1994:2892" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2013:2892" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2036:2207" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2057:2199" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2228:2892" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2256:2892" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2287:2821" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2309:2811" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2356:2800" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2846:2892" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2976:3311" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="2986:3281" ph="..." />
-                <marker date="1469374732000" expanded="true" signature="3472:3495" ph="..." />
+                <marker date="1469410783000" expanded="true" signature="147:267" ph="select id fr... domain" />
+                <marker date="1469410783000" expanded="true" signature="147:279" ph="select id fr... domain" />
+                <marker date="1469410783000" expanded="true" signature="147:290" ph="select id fr... domain" />
+                <marker date="1469410783000" expanded="true" signature="387:416" ph="update domai... " />
+                <marker date="1469410783000" expanded="true" signature="387:452" ph="update domai... " />
+                <marker date="1469410783000" expanded="true" signature="663:721" ph="select * fro... vip" />
+                <marker date="1469410783000" expanded="true" signature="1037:1075" ph="select * fro... vip" />
+                <marker date="1469410783000" expanded="true" signature="1037:1083" ph="select * fro... gonggao" />
+                <marker date="1469410783000" expanded="true" signature="1345:1367" ph="select * fro... update" />
+                <marker date="1469410783000" expanded="true" signature="1345:1383" ph="select * fro... update" />
+                <marker date="1469410783000" expanded="true" signature="1345:1391" ph="select * fro... gengxin" />
+                <marker date="1469410783000" expanded="true" signature="1611:1651" ph="select * fro... templates" />
+                <marker date="1469410783000" expanded="true" signature="2041:2081" ph="select date " />
+                <marker date="1469410783000" expanded="true" signature="2041:2093" ph="select date " />
+                <marker date="1469410783000" expanded="true" signature="2138:2155" ph="update domai... " />
+                <marker date="1469410783000" expanded="true" signature="2138:2167" ph="update domai... " />
+                <marker date="1469410783000" expanded="true" signature="2138:2280" ph="update domai... " />
+                <marker date="1469410783000" expanded="true" signature="2138:2292" ph="update domai... " />
+                <marker date="1469410783000" expanded="true" signature="2138:2293" ph="update domai... " />
+                <marker date="1469410783000" expanded="true" signature="2566:2581" ph="select id fr... ${$from}" />
+                <marker date="1469410783000" expanded="true" signature="2793:2849" ph="select * fro... ${$from}" />
+                <marker date="1469410783000" expanded="true" signature="3587:3602" ph="select id fr... ${$from}" />
+                <marker date="1469410783000" expanded="true" signature="4445:4475" ph="select count... " />
+                <marker date="1469410783000" expanded="true" signature="5165:5202" ph="select id fr... ${$from}" />
+                <marker date="1469410783000" expanded="true" signature="5165:5218" ph="select id fr... ${$from}" />
+                <marker date="1469410783000" expanded="true" signature="5439:5490" ph="insert into ${$from}... " />
+                <marker date="1469410783000" expanded="true" signature="5539:5590" ph="insert into ${$from}... " />
+                <marker date="1469410783000" expanded="true" signature="5929:5960" ph="delete from " />
+                <marker date="1469410783000" expanded="true" signature="6170:6221" ph="select id fr... domain" />
+                <marker date="1469410783000" expanded="true" signature="6306:6376" ph="update domai... " />
+                <marker date="1469410783000" expanded="true" signature="6427:6512" ph="insert into spider... " />
+                <marker date="1469410783000" expanded="true" signature="6427:6536" ph="insert into spider... " />
               </folding>
             </state>
           </provider>
@@ -76,8 +90,8 @@
         <option value="$PROJECT_DIR$/admin/main.php" />
         <option value="$PROJECT_DIR$/admin/inc/left.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/admin/inc/function.php" />
         <option value="$PROJECT_DIR$/admin/vip.php" />
+        <option value="$PROJECT_DIR$/admin/inc/function.php" />
       </list>
     </option>
   </component>
@@ -123,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -213,6 +226,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,7 +316,12 @@
       <workItem from="1469343512836" duration="837000" />
       <workItem from="1469345102614" duration="232000" />
       <workItem from="1469365172102" duration="37000" />
-      <workItem from="1469374209664" duration="545000" />
+      <workItem from="1469374209664" duration="661000" />
+      <workItem from="1469408825795" duration="353000" />
+      <workItem from="1469409789073" duration="163000" />
+      <workItem from="1469410487887" duration="79000" />
+      <workItem from="1469410656126" duration="87000" />
+      <workItem from="1469411154828" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="服务端v1.0">
       <created>1468984781975</created>
@@ -451,11 +470,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469374480157</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="修复vip购买url地址">
+      <created>1469374783921</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1469374783921</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43492000" />
+    <option name="totallyTimeSpent" value="44292000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -512,7 +538,8 @@
     <MESSAGE value="临时去掉在线更新,改用公告方式,用户手动更新" />
     <MESSAGE value="增加公告列表接口" />
     <MESSAGE value="增加vip购买url地址" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加vip购买url地址" />
+    <MESSAGE value="修复vip购买url地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复vip购买url地址" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -552,38 +579,38 @@
         <state relative-caret-position="2235">
           <caret line="149" column="50" selection-start-line="149" selection-start-column="50" selection-end-line="149" selection-end-column="50" />
           <folding>
-            <marker date="1469345302000" expanded="true" signature="147:267" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:279" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:290" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="387:416" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="387:452" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="699:732" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1027" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1035" ph="select * fro... gonggao" />
-            <marker date="1469345302000" expanded="true" signature="1297:1319" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1335" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1343" ph="select * fro... gengxin" />
-            <marker date="1469345302000" expanded="true" signature="1563:1603" ph="select * fro... templates" />
-            <marker date="1469345302000" expanded="true" signature="1993:2033" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="1993:2045" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="2090:2107" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2119" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2232" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2244" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2245" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2518:2533" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="2745:2801" ph="select * fro... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="3539:3554" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="4397:4427" ph="select count... " />
-            <marker date="1469345302000" expanded="true" signature="5117:5154" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5117:5170" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5391:5442" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5491:5542" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5881:5912" ph="delete from " />
-            <marker date="1469345302000" expanded="true" signature="6122:6173" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="6258:6328" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6464" ph="insert into spider... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6488" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="147:267" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:279" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:290" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="387:416" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="387:452" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="663:721" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1075" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1083" ph="select * fro... gonggao" />
+            <marker date="1469410783000" expanded="true" signature="1345:1367" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1383" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1391" ph="select * fro... gengxin" />
+            <marker date="1469410783000" expanded="true" signature="1611:1651" ph="select * fro... templates" />
+            <marker date="1469410783000" expanded="true" signature="2041:2081" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2041:2093" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2138:2155" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2167" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2280" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2292" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2293" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2566:2581" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="2793:2849" ph="select * fro... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="3587:3602" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="4445:4475" ph="select count... " />
+            <marker date="1469410783000" expanded="true" signature="5165:5202" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5165:5218" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5439:5490" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5539:5590" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5929:5960" ph="delete from " />
+            <marker date="1469410783000" expanded="true" signature="6170:6221" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="6306:6376" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6512" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6536" ph="insert into spider... " />
           </folding>
         </state>
       </provider>
@@ -592,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -643,38 +669,38 @@
         <state relative-caret-position="2235">
           <caret line="149" column="50" selection-start-line="149" selection-start-column="50" selection-end-line="149" selection-end-column="50" />
           <folding>
-            <marker date="1469345302000" expanded="true" signature="147:267" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:279" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:290" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="387:416" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="387:452" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="699:732" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1027" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1035" ph="select * fro... gonggao" />
-            <marker date="1469345302000" expanded="true" signature="1297:1319" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1335" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1343" ph="select * fro... gengxin" />
-            <marker date="1469345302000" expanded="true" signature="1563:1603" ph="select * fro... templates" />
-            <marker date="1469345302000" expanded="true" signature="1993:2033" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="1993:2045" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="2090:2107" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2119" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2232" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2244" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2245" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2518:2533" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="2745:2801" ph="select * fro... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="3539:3554" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="4397:4427" ph="select count... " />
-            <marker date="1469345302000" expanded="true" signature="5117:5154" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5117:5170" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5391:5442" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5491:5542" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5881:5912" ph="delete from " />
-            <marker date="1469345302000" expanded="true" signature="6122:6173" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="6258:6328" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6464" ph="insert into spider... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6488" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="147:267" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:279" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:290" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="387:416" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="387:452" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="663:721" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1075" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1083" ph="select * fro... gonggao" />
+            <marker date="1469410783000" expanded="true" signature="1345:1367" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1383" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1391" ph="select * fro... gengxin" />
+            <marker date="1469410783000" expanded="true" signature="1611:1651" ph="select * fro... templates" />
+            <marker date="1469410783000" expanded="true" signature="2041:2081" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2041:2093" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2138:2155" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2167" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2280" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2292" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2293" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2566:2581" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="2793:2849" ph="select * fro... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="3587:3602" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="4445:4475" ph="select count... " />
+            <marker date="1469410783000" expanded="true" signature="5165:5202" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5165:5218" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5439:5490" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5539:5590" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5929:5960" ph="delete from " />
+            <marker date="1469410783000" expanded="true" signature="6170:6221" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="6306:6376" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6512" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6536" ph="insert into spider... " />
           </folding>
         </state>
       </provider>
@@ -683,7 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -734,38 +759,38 @@
         <state relative-caret-position="2235">
           <caret line="149" column="50" selection-start-line="149" selection-start-column="50" selection-end-line="149" selection-end-column="50" />
           <folding>
-            <marker date="1469345302000" expanded="true" signature="147:267" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:279" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:290" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="387:416" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="387:452" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="699:732" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1027" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1035" ph="select * fro... gonggao" />
-            <marker date="1469345302000" expanded="true" signature="1297:1319" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1335" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1343" ph="select * fro... gengxin" />
-            <marker date="1469345302000" expanded="true" signature="1563:1603" ph="select * fro... templates" />
-            <marker date="1469345302000" expanded="true" signature="1993:2033" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="1993:2045" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="2090:2107" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2119" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2232" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2244" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2245" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2518:2533" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="2745:2801" ph="select * fro... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="3539:3554" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="4397:4427" ph="select count... " />
-            <marker date="1469345302000" expanded="true" signature="5117:5154" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5117:5170" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5391:5442" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5491:5542" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5881:5912" ph="delete from " />
-            <marker date="1469345302000" expanded="true" signature="6122:6173" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="6258:6328" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6464" ph="insert into spider... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6488" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="147:267" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:279" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:290" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="387:416" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="387:452" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="663:721" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1075" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1083" ph="select * fro... gonggao" />
+            <marker date="1469410783000" expanded="true" signature="1345:1367" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1383" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1391" ph="select * fro... gengxin" />
+            <marker date="1469410783000" expanded="true" signature="1611:1651" ph="select * fro... templates" />
+            <marker date="1469410783000" expanded="true" signature="2041:2081" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2041:2093" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2138:2155" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2167" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2280" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2292" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2293" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2566:2581" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="2793:2849" ph="select * fro... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="3587:3602" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="4445:4475" ph="select count... " />
+            <marker date="1469410783000" expanded="true" signature="5165:5202" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5165:5218" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5439:5490" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5539:5590" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5929:5960" ph="delete from " />
+            <marker date="1469410783000" expanded="true" signature="6170:6221" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="6306:6376" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6512" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6536" ph="insert into spider... " />
           </folding>
         </state>
       </provider>
@@ -774,7 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,38 +835,38 @@
         <state relative-caret-position="1905">
           <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
           <folding>
-            <marker date="1469345302000" expanded="true" signature="147:267" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:279" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:290" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="387:416" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="387:452" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="699:732" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1027" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1035" ph="select * fro... gonggao" />
-            <marker date="1469345302000" expanded="true" signature="1297:1319" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1335" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1343" ph="select * fro... gengxin" />
-            <marker date="1469345302000" expanded="true" signature="1563:1603" ph="select * fro... templates" />
-            <marker date="1469345302000" expanded="true" signature="1993:2033" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="1993:2045" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="2090:2107" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2119" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2232" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2244" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2245" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2518:2533" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="2745:2801" ph="select * fro... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="3539:3554" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="4397:4427" ph="select count... " />
-            <marker date="1469345302000" expanded="true" signature="5117:5154" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5117:5170" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5391:5442" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5491:5542" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5881:5912" ph="delete from " />
-            <marker date="1469345302000" expanded="true" signature="6122:6173" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="6258:6328" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6464" ph="insert into spider... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6488" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="147:267" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:279" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:290" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="387:416" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="387:452" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="663:721" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1075" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1083" ph="select * fro... gonggao" />
+            <marker date="1469410783000" expanded="true" signature="1345:1367" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1383" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1391" ph="select * fro... gengxin" />
+            <marker date="1469410783000" expanded="true" signature="1611:1651" ph="select * fro... templates" />
+            <marker date="1469410783000" expanded="true" signature="2041:2081" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2041:2093" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2138:2155" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2167" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2280" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2292" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2293" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2566:2581" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="2793:2849" ph="select * fro... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="3587:3602" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="4445:4475" ph="select count... " />
+            <marker date="1469410783000" expanded="true" signature="5165:5202" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5165:5218" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5439:5490" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5539:5590" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5929:5960" ph="delete from " />
+            <marker date="1469410783000" expanded="true" signature="6170:6221" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="6306:6376" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6512" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6536" ph="insert into spider... " />
           </folding>
         </state>
       </provider>
@@ -851,7 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -859,7 +882,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -883,38 +905,38 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1469345302000" expanded="true" signature="147:267" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:279" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:290" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="387:416" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="387:452" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="699:732" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1027" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1035" ph="select * fro... gonggao" />
-            <marker date="1469345302000" expanded="true" signature="1297:1319" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1335" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1343" ph="select * fro... gengxin" />
-            <marker date="1469345302000" expanded="true" signature="1563:1603" ph="select * fro... templates" />
-            <marker date="1469345302000" expanded="true" signature="1993:2033" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="1993:2045" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="2090:2107" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2119" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2232" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2244" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2245" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2518:2533" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="2745:2801" ph="select * fro... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="3539:3554" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="4397:4427" ph="select count... " />
-            <marker date="1469345302000" expanded="true" signature="5117:5154" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5117:5170" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5391:5442" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5491:5542" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5881:5912" ph="delete from " />
-            <marker date="1469345302000" expanded="true" signature="6122:6173" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="6258:6328" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6464" ph="insert into spider... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6488" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="147:267" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:279" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:290" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="387:416" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="387:452" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="663:721" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1075" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1083" ph="select * fro... gonggao" />
+            <marker date="1469410783000" expanded="true" signature="1345:1367" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1383" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1391" ph="select * fro... gengxin" />
+            <marker date="1469410783000" expanded="true" signature="1611:1651" ph="select * fro... templates" />
+            <marker date="1469410783000" expanded="true" signature="2041:2081" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2041:2093" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2138:2155" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2167" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2280" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2292" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2293" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2566:2581" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="2793:2849" ph="select * fro... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="3587:3602" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="4445:4475" ph="select count... " />
+            <marker date="1469410783000" expanded="true" signature="5165:5202" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5165:5218" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5439:5490" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5539:5590" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5929:5960" ph="delete from " />
+            <marker date="1469410783000" expanded="true" signature="6170:6221" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="6306:6376" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6512" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6536" ph="insert into spider... " />
           </folding>
         </state>
       </provider>
@@ -964,9 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="14" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
-          <folding>
-            <marker date="1468942032000" expanded="true" signature="1291:1338" ph="update gengx... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -974,48 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-          <folding>
-            <marker date="1469345302000" expanded="true" signature="147:267" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:279" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="147:290" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="387:416" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="387:452" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="699:732" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1027" ph="select * fro... vip" />
-            <marker date="1469345302000" expanded="true" signature="989:1035" ph="select * fro... gonggao" />
-            <marker date="1469345302000" expanded="true" signature="1297:1319" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1335" ph="select * fro... update" />
-            <marker date="1469345302000" expanded="true" signature="1297:1343" ph="select * fro... gengxin" />
-            <marker date="1469345302000" expanded="true" signature="1563:1603" ph="select * fro... templates" />
-            <marker date="1469345302000" expanded="true" signature="1993:2033" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="1993:2045" ph="select date " />
-            <marker date="1469345302000" expanded="true" signature="2090:2107" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2119" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2232" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2244" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2090:2245" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="2518:2533" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="2745:2801" ph="select * fro... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="3539:3554" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="4397:4427" ph="select count... " />
-            <marker date="1469345302000" expanded="true" signature="5117:5154" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5117:5170" ph="select id fr... ${$from}" />
-            <marker date="1469345302000" expanded="true" signature="5391:5442" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5491:5542" ph="insert into ${$from}... " />
-            <marker date="1469345302000" expanded="true" signature="5881:5912" ph="delete from " />
-            <marker date="1469345302000" expanded="true" signature="6122:6173" ph="select id fr... domain" />
-            <marker date="1469345302000" expanded="true" signature="6258:6328" ph="update domai... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6464" ph="insert into spider... " />
-            <marker date="1469345302000" expanded="true" signature="6379:6488" ph="insert into spider... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,10 +1008,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <marker date="1469338365000" expanded="true" signature="1074:1108" ph="select title... domain" />
-            <marker date="1469338365000" expanded="true" signature="1245:1307" ph="select SUM(s... spider" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1042,13 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-          <folding>
-            <marker date="1469341578000" expanded="true" signature="1222:1300" ph="update domai... " />
-            <marker date="1469341578000" expanded="true" signature="1355:1389" ph="select title... domain" />
-            <marker date="1469341578000" expanded="true" signature="2665:2698" ph="select * fro... vip" />
-            <marker date="1469341578000" expanded="true" signature="4227:4260" ph="select * fro... vip" />
-            <marker date="1469341578000" expanded="true" signature="5466:5497" ph="select title... vip" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,9 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="131" column="36" selection-start-line="131" selection-start-column="36" selection-end-line="131" selection-end-column="36" />
-          <folding>
-            <marker date="1469333629000" expanded="true" signature="1526:1575" ph="update templ... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,7 +1029,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1093,6 +1055,47 @@
             <marker date="1469374732000" expanded="true" signature="2976:3311" ph="..." />
             <marker date="1469374732000" expanded="true" signature="2986:3281" ph="..." />
             <marker date="1469374732000" expanded="true" signature="3472:3495" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/inc/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+          <folding>
+            <marker date="1469410783000" expanded="true" signature="147:267" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:279" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="147:290" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="387:416" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="387:452" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="663:721" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1075" ph="select * fro... vip" />
+            <marker date="1469410783000" expanded="true" signature="1037:1083" ph="select * fro... gonggao" />
+            <marker date="1469410783000" expanded="true" signature="1345:1367" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1383" ph="select * fro... update" />
+            <marker date="1469410783000" expanded="true" signature="1345:1391" ph="select * fro... gengxin" />
+            <marker date="1469410783000" expanded="true" signature="1611:1651" ph="select * fro... templates" />
+            <marker date="1469410783000" expanded="true" signature="2041:2081" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2041:2093" ph="select date " />
+            <marker date="1469410783000" expanded="true" signature="2138:2155" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2167" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2280" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2292" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2138:2293" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="2566:2581" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="2793:2849" ph="select * fro... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="3587:3602" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="4445:4475" ph="select count... " />
+            <marker date="1469410783000" expanded="true" signature="5165:5202" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5165:5218" ph="select id fr... ${$from}" />
+            <marker date="1469410783000" expanded="true" signature="5439:5490" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5539:5590" ph="insert into ${$from}... " />
+            <marker date="1469410783000" expanded="true" signature="5929:5960" ph="delete from " />
+            <marker date="1469410783000" expanded="true" signature="6170:6221" ph="select id fr... domain" />
+            <marker date="1469410783000" expanded="true" signature="6306:6376" ph="update domai... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6512" ph="insert into spider... " />
+            <marker date="1469410783000" expanded="true" signature="6427:6536" ph="insert into spider... " />
           </folding>
         </state>
       </provider>
