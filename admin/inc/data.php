@@ -8,5 +8,5 @@ if ($mysqli->connect_error) {
 mysqli_query($mysqli,'set names utf8');
 include("function.php");
 include("ver.php");
-define('SYSTEM_NAME','阿里蜘蛛池服务端');
+define('SYSTEM_NAME','AliSpider_Server');
 ?>

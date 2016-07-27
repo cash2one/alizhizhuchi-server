@@ -19,7 +19,7 @@ if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION
 	<!-- 头部 -->
 	<div class="head">
 		<div class="headL">
-			<?=SYSTEM_NAME?><span><?=VER?></span>
+			<?=SYSTEM_NAME?>&nbsp;<span><?=VER?></span>
 		</div>
 		<div class="headR">
 			<img src="/ad/wellcom.jpg"/>
