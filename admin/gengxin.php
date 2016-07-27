@@ -34,10 +34,10 @@ switch($action){
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
 		break;
 	case "save":
-		$detail=isset($_POST['detail'])?"'".$_POST['detail']."'":"";
+		$detail=isset($_POST['detail'])?$_POST['detail']:"";
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
 		if(!empty($detail)&&is_numeric($id)) {
-			$mysqli->query("update gengxin set detail=".$detail." where id=".$id);
+			$mysqli->query("update gengxin set detail='".$detail."' where id=".$id);
 			header("Location: gengxin.php?page=".$page);
 		}
 		break;
