@@ -17,7 +17,7 @@ function get_vip_shouquan($domain){
 //获取vip级别,域名数量,模板数量
 function get_vip_jibie(){
     global $mysqli;
-    $sql="select title,domain,templates,url from vip order by id asc";
+    $sql="select title,domain,templates,url from vip order by title asc";
     $result=$mysqli->query($sql);
     if($result->num_rows>0){
         while($row=$result->fetch_assoc()){
