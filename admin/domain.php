@@ -85,14 +85,17 @@ switch($action){
 				</div>
 			</div>
 			<div class="conShow">
-				<span style="float:right">合计(<?=data_num('domain')?>)</span>
+				<span style="float:right">合计(<?=data_num('domain')?>)&nbsp;&nbsp;蜘蛛合计(<?=data_num('spider')?>)</span>
 				<table border="1" cellspacing="0" cellpadding="0" width="100%">
 					<tr>
 						<td width="50px" class="tdColor tdC">序号</td>
 						<td class="tdColor">域名</td>
 						<td width="70px" class="tdColor">VIP</td>
 						<td width="150px" class="tdColor">在线时间</td>
-						<td width="70px" class="tdColor">域名数量</td>
+						<?php
+						$domain_all=$mysqli->query("select SUM(domain_num) as domain_all from domain")->fetch_object()->domain_all;
+						?>
+						<td width="70px" class="tdColor">域名数量(<?=$domain_all?>)</td>
 						<td width="50px" class="tdColor">状态</td>
 						<td width="150px" class="tdColor">购买时间</td>
 						<td width="150px" class="tdColor">过期时间</td>

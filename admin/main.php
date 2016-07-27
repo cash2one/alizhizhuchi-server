@@ -4,7 +4,7 @@ session_start();
 if(!isset($_SESSION['admin_id'])||!isset($_SESSION['is_login'])||empty($_SESSION['admin_id'])||empty($_SESSION['is_login'])){
 	header("Location: log.php");
 }
-for($i=6;$i>=0;$i--){
+for($i=7;$i>=1;$i--){
 	$xAxisdata[]="'".date('n/j',time()-$i*24*3600)."'";
 	$seriesdata[]=data_num('spider','',date('Y-m-d',time()-$i*24*3600));
 }

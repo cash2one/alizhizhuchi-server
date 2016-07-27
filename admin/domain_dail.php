@@ -42,8 +42,9 @@ $page=isset($_GET['page'])?$_GET['page']:1;
 						<td width="150px" class="tdColor">日期</td>
 					</tr>
 					<?php
-					if(info_list('spider',$page)){
-						foreach(info_list('spider',$page) as $row){
+					$where='domain_id='.$id;
+					if(info_list('spider',$page,$where)){
+						foreach(info_list('spider',$page,$where) as $row){
 							?>
 							<tr>
 								<td height="40px"><?= $row['id'] ?></td>

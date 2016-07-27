@@ -12,7 +12,7 @@ switch($action){
 		$data['title']=isset($_POST['title'])?"'".$_POST['title']."'":"";
 		$data['domain']=isset($_POST['domain'])?$_POST['domain']:"";
 		$data['templates']=isset($_POST['templates'])?$_POST['templates']:"";
-		$data['url']=isset($_POST['url'])?$_POST['url']:"";
+		$data['url']=isset($_POST['url'])?"'".$_POST['url']."'":"";
 		if(!empty($data['title'])&&!empty($data['url'])&&is_numeric($data['domain'])&&is_numeric($data['templates'])){
 			if(info_add('vip',$data)==false){
 				echo "数据已存在";exit;

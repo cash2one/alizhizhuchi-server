@@ -30,8 +30,8 @@ switch($act){
 //		echo update_domain_login($domain);
 //		break;
 	case "data"://接收客户端反馈的数据
-		if($domain&&$spider_num&&is_numeric($spider_num)&&$domain_num&&is_numeric($domain_num)){
-			update_domain_data($domain,$domain_num,$spider_num);
+		if($domain&&is_numeric($spider_num)&&is_numeric($domain_num)){
+			echo update_domain_data($domain,$domain_num,$spider_num);
 		}
 		break;
 	default:

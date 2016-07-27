@@ -60,6 +60,19 @@ function get_templates_list(){
         return json_encode($data);
     }
 }
+//接收客户端数据
+function update_domain_data($domain,$domain_num,$spider_num){
+    global $mysqli;
+    $domain=base64_encode($domain);
+    $domain_id=$mysqli->query("select id from domain where title='" . $domain . "'")->fetch_object()->id;
+    if($domain_id){
+        //更新域名数量
+        $mysqli->query("update domain set domain_num=".$domain_num." where title='".$domain."'");
+        //更新蜘蛛数量,日期为昨日
+        $mysqli->query("insert into spider (domain_id,spider_num,date) values(".$domain_id.",".$spider_num.",".strtotime("-1 day").")");
+        return true;
+    }
+}
 ////更新在线时间及判断是否过期
 //function update_domain_login($domain){
 //    global $mysqli;
@@ -81,16 +94,23 @@ function get_templates_list(){
 //}
 //后台
 //信息列表
-function info_list($from,$page){
+function info_list($from,$page,$where=''){
     global $mysqli;
     $page_size=30;
     $sql="select id from ".$from;
+    if($where){
+        $sql.=" where ".$where;
+    }
     $result=$mysqli->query($sql);
     $total=$result->num_rows;
     $pagenum=ceil($total/$page_size);
     if($page<1||!is_numeric($page)||$page>$pagenum)$page=1;
     $min=($page-1)*$page_size;
-    $sql="select * from ".$from." order by id desc limit ".$min.",".$page_size;
+    $sql="select * from ".$from;
+    if($where){
+        $sql.=" where ".$where;
+    }
+    $sql.=" order by id desc limit ".$min.",".$page_size;
     $result=$mysqli->query($sql);
     if($result->num_rows>0){
         while($row = $result->fetch_assoc())
@@ -121,18 +141,22 @@ function list_page($from,$page,$type=''){
     }
 }
 //$from:数据表;$num:统计天数;$day:具体某天;$type:搜索引擎;
-function data_num($from,$num='',$day=''){
+function data_num($from,$num='',$day='',$domain_id=''){
     global $mysqli;
     $sql="select count(*) as count from ".$from;
     if($from=='spider'){
+        $sql="select SUM(spider_num) as count from ".$from;
         if($num && is_numeric($num)){
-            $num='-'.($num-1).' day';
+            $num='-'.$num.' day';
             $riqi=strtotime(date('Y-m-d',strtotime($num)));
             //$riqi=time()-$num*24*3600;
             $sql.=" where date>$riqi";
         }
         if($day){
             $sql.=" where DATE_FORMAT(FROM_UNIXTIME(date),'%Y-%m-%d') = '".date('Y-m-d',strtotime($day))."'";
+        }
+        if($domain_id){
+            $sql.=" where domain_id=".$domain_id;
         }
     }
     $num_all=$mysqli->query($sql)->fetch_object()->count;
@@ -142,7 +166,7 @@ function info_add($from,$data){
     global $mysqli;
     if(is_array($data)){
         $result=$mysqli->query("select id from ".$from." where title=".$data['title']);
-        if($result&&$result->num_rows>0){
+        if($result->num_rows){
             return false;//已存在
         }else{
             $key=implode(",",array_keys($data));
@@ -158,16 +182,5 @@ function info_del($from,$page,$id){
     global $mysqli;
     $mysqli->query("delete from ".$from." where id=".$id);
     header("Location: ".$from.".php?page=".$page);
-}
-function update_domain_data($domain,$domain_num,$spider_num){
-    global $mysqli;
-    $domain=base64_encode($domain);
-    $domain_id=$mysqli->query("select id from domain where title='" . $domain . "'")->fetch_object()->id;
-    if($domain_id){
-        //更新域名数量
-        $mysqli->query("update domain set domain_num=".$domain_num." where title='".$domain."'");
-        //更新蜘蛛数量,日期为昨日
-        $mysqli->query("insert into spider (domain_id,spider_num,date) values(".$domain_id.",".$spider_num.",".strtotime("-1 day").")");
-    }
 }
 ?>
