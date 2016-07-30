@@ -11,7 +11,7 @@ function get_vip_shouquan($domain){
         $mysqli->query($sql);
         return json_encode($result->fetch_assoc());
     }else{
-        return false;//未授权或已过期
+        return "5pyq5o6I5p2D";//未授权或已关闭
     }
 }
 //获取vip级别,域名数量,模板数量
