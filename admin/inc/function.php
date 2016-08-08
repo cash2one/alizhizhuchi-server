@@ -21,6 +21,8 @@ function get_vip_jibie(){
     $result=$mysqli->query($sql);
     if($result->num_rows>0){
         while($row=$result->fetch_assoc()){
+            if($row['domain']==10000){$row['domain']='无限';}
+            if($row['templates']==10000){$row['templates']='无限';}
             $data[0][]=$row;
         }
         $data['shuoming']=array("VIP级别","域名数量","模板数量");
