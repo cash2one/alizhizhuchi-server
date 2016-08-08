@@ -25,11 +25,12 @@ switch($action){
 	case "save":
 		$title=isset($_POST['title'])?"'".$_POST['title']."'":"";
 		$domain=isset($_POST['domain'])?$_POST['domain']:"";
+		$paixu=isset($_POST['paixu'])?$_POST['paixu']:"";
 		$templates=isset($_POST['templates'])?$_POST['templates']:"";
 		$url=isset($_POST['url'])?$_POST['url']:"";
 		$id = isset($_GET['id']) ? $_GET['id'] : "";
 		if(!empty($title)&&!empty($url)&&is_numeric($domain)&&is_numeric($templates)&&is_numeric($id)) {
-			$mysqli->query("update vip set title=".$title.",domain=".$domain.",templates=".$templates.",url='".$url."' where id=".$id);
+			$mysqli->query("update vip set paixu=".$paixu.",title=".$title.",domain=".$domain.",templates=".$templates.",url='".$url."' where id=".$id);
 			header("Location: vip.php?page=".$page);
 		}
 		break;
@@ -76,6 +77,7 @@ switch($action){
 				<table border="1" cellspacing="0" cellpadding="0" width="100%">
 					<tr>
 						<td width="66px" class="tdColor tdC">序号</td>
+						<td width="66px" class="tdColor tdC">排序</td>
 						<td width="300px" class="tdColor">级别</td>
 						<td width="100px" class="tdColor">域名数量</td>
 						<td width="100px" class="tdColor">模板数量</td>
@@ -90,6 +92,7 @@ switch($action){
 								<tr bgcolor="#999">
 									<form action='?action=save&page=<?= $page ?>&id=<?= $id ?>' method='post'>
 										<td height="40px"><?= $row['id'] ?></td>
+										<td height="40px"><input type="text" name="paixu" value="<?= $row['paixu'] ?>"/></td>
 										<td style="text-align:left;padding-left:20px;"><input type="text" name="title" value="<?= $row['title'] ?>"/></td>
 										<td><input type="text" name="domain" value="<?= $row['domain'] ?>"/></td>
 										<td><input type="text" name="templates" value="<?= $row['templates'] ?>"/></td>
@@ -103,6 +106,7 @@ switch($action){
 								?>
 								<tr>
 									<td height="40px"><?= $row['id'] ?></td>
+									<td height="40px"><?= $row['paixu'] ?></td>
 									<td style="text-align:left;padding-left:20px;"><?= $row['title'] ?></td>
 									<td><?= $row['domain'] ?></td>
 									<td><?= $row['templates'] ?></td>
