@@ -17,7 +17,7 @@ function get_vip_shouquan($domain){
 //获取vip级别,域名数量,模板数量
 function get_vip_jibie(){
     global $mysqli;
-    $sql="select title,domain,templates,url from vip order by paixu asc";
+    $sql="select title,domain,templates,dingzhi,zhichi,yuejia,nianjia,url from vip order by paixu asc";
     $result=$mysqli->query($sql);
     if($result->num_rows>0){
         while($row=$result->fetch_assoc()){
@@ -27,7 +27,7 @@ function get_vip_jibie(){
             }
             $data[0][]=$row;
         }
-        $data['shuoming']=array("VIP级别","域名数量","模板数量");
+        $data['shuoming']=array("VIP级别","域名数量","模板数量","定制模板","技术支持","月售价","年售价");
         return json_encode($data);
     }
 }
