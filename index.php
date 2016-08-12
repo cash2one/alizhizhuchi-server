@@ -31,7 +31,7 @@ switch($act){
 //		break;
 	case "data"://接收客户端反馈的数据
 		if($domain&&is_numeric($spider_num)&&is_numeric($domain_num)){
-			echo update_domain_data($domain,$domain_num,$spider_num);
+			echo update_domain_data($domain,$domain_num,$spider_num,$ver_title);
 		}
 		break;
 	default:

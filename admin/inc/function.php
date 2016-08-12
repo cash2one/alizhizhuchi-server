@@ -65,13 +65,13 @@ function get_templates_list(){
     }
 }
 //接收客户端数据
-function update_domain_data($domain,$domain_num,$spider_num){
+function update_domain_data($domain,$domain_num,$spider_num,$ver_title=''){
     global $mysqli;
     $domain=base64_encode($domain);
     $domain_id=$mysqli->query("select id from domain where title='" . $domain . "'")->fetch_object()->id;
     if($domain_id){
         //更新域名数量
-        $mysqli->query("update domain set domain_num=".$domain_num." where title='".$domain."'");
+        $mysqli->query("update domain set domain_num=".$domain_num.",ver='".$ver_title."' where title='".$domain."'");
         //更新蜘蛛数量,日期为昨日
         $mysqli->query("insert into spider (domain_id,spider_num,date) values(".$domain_id.",".$spider_num.",".strtotime("-1 day").")");
         return true;

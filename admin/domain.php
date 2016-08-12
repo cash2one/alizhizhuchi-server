@@ -90,8 +90,9 @@ switch($action){
 					<tr>
 						<td width="50px" class="tdColor tdC">序号</td>
 						<td class="tdColor">域名</td>
+						<td width="70px" class="tdColor">VER</td>
 						<td width="70px" class="tdColor">VIP</td>
-						<td width="150px" class="tdColor">在线时间</td>
+						<td width="120px" class="tdColor">在线时间</td>
 						<?php
 						$domain_all=$mysqli->query("select SUM(domain_num) as domain_all from domain")->fetch_object()->domain_all;
 						?>
@@ -110,6 +111,7 @@ switch($action){
 									<form action='?action=save&page=<?= $page ?>&id=<?= $id ?>' method='post'>
 										<td height="40px"><?= $row['id'] ?></td>
 										<td style="text-align:left;padding-left:20px;"><?= base64_decode($row['title']) ?></td>
+										<td style="text-align:left;padding-left:20px;"><?= $row['ver'] ?></td>
 										<td><select name="vip_id" id="vip">
 												<option value="">VIP级别</option>
 												<?php
@@ -141,6 +143,7 @@ switch($action){
 								<tr>
 									<td height="40px"><?= $row['id'] ?></td>
 									<td style="text-align:left;padding-left:20px;"><?= base64_decode($row['title']) ?></td>
+									<td style="text-align:left;padding-left:20px;"><?= $row['ver'] ?></td>
 									<td><?= $mysqli->query("select title from vip where id=".$row['vip_id'])->fetch_object()->title ?></td>
 									<td><?= $row['login_time']?date('m-d H:i:s',$row['login_time']):"" ?></td>
 									<td><?= $row['domain_num']?></td>
