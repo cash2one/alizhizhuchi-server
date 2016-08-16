@@ -73,8 +73,11 @@ function update_domain_data($domain,$domain_num,$spider_num,$ver_title=''){
         //更新域名数量
         $mysqli->query("update domain set domain_num=".$domain_num.",ver='".$ver_title."' where title='".$domain."'");
         //更新蜘蛛数量,日期为昨日
-        $mysqli->query("insert into spider (domain_id,spider_num,date) values(".$domain_id.",".$spider_num.",".strtotime("-1 day").")");
-        return true;
+        $res=$mysqli->query("select id from spider where domain_id=".$domain_id." DATE_FORMAT(FROM_UNIXTIME(date),'%Y-%m-%d') = date_sub(current_date(),interval 1 day)")->fetch_object()->id;
+        if(!$res) {
+            $mysqli->query("insert into spider (domain_id,spider_num,date) values(" . $domain_id . "," . $spider_num . "," . strtotime("-1 day") . ")");
+            return true;
+        }
     }
 }
 ////更新在线时间及判断是否过期
